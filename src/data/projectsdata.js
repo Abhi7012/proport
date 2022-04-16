@@ -2,24 +2,24 @@ const projectsinfo = [
     {
         key: 1,
         name: 'Woluntrr',
-        bg: '/Woluntrr.png',
+        bg: './Assets/Woluntrr.png',
 
     },
     {
         key: 2,
         name: 'Gymmer',
-        bg: '/gymmerillus.png',
+        bg: './Assets/gymmerillus.png',
     },
     {
         key: 3,
         name: 'Keepers app',
-        bg: '/keeperapp.png',
+        bg: './Assets/keeperapp.png',
 
     },
     {
         key: 4,
         name: 'Portfolio Website',
-        bg: '/portfolio.jfif',
+        bg: '/Assets/portfolio.jfif',
     },
 ];
 
