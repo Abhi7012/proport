@@ -9,7 +9,11 @@
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "gh-pages": "^3.2.3",
+    "image-webpack-loader": "^8.1.0",
+    "owl.carousel": "^2.3.4",
+    "react-owl-carousel": "^2.3.3"
   },
   "scripts": {
     "start": "react-scripts start",

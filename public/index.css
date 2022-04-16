@@ -1,0 +1,86 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    background-repeat: no-repeat;
+}
+
+img {
+    height: 30%;
+    width: auto;
+}
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.nav-link {
+    color: white;
+}
+.content1 {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 4rem;
+
+}
+.greetings {
+    font-size: 4rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    color: white;
+
+}
+
+
+.content2+img{
+    padding-right: 5rem;
+}
+.imgbox {
+    justify-content: center;
+    align-items: center;
+    padding-left: 20%;
+    overflow: hidden;
+    margin-bottom: 3rem;
+}
+.Projects h4 {
+    text-align: center;  
+    color: white;
+
+    
+}
+.circle{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    background-size: 25rem;
+    background-position-x: center;
+    background-position-y: center;
+    margin-left: 4rem;
+    margin-bottom: 2rem;
+
+    text-align: center;
+    justify-content: center;
+    padding-top: 6rem;
+}
+.circleContent{
+    text-align: center;
+
+}
+.Slider {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    background-color: whitesmoke;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    
+}
+.footer-item {
+    color: black;
+}
