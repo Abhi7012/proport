@@ -21,7 +21,7 @@ function Slider() {
             items: 3,
         },
     };
-    return (<div className="Slider container">
+    return (<div className="Slider">
         <OwlCarousel className="owl-theme" responsive={responsive} stagePadding={50} autoplay loop margin={10} dots={false} >
             {projectsinfo.map(element => (
                 <div className="item">
