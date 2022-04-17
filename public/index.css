@@ -28,6 +28,7 @@ img {
     justify-content: center;
     text-align: center;
     padding-top: 6rem;
+    padding-bottom: 4rem;
 
 }
 .greetings {
@@ -84,4 +85,8 @@ img {
 }
 .footer-item {
     color: black;
+}
+.contentmid {
+    margin-bottom: 2rem;
+    background-color: aliceblue;
 }
