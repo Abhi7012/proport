@@ -64,7 +64,9 @@ img {
     background-size: 25rem;
     background-position-x: center;
     background-position-y: center;
-    margin-left: 4rem;
+    padding: 0%;
+    margin-left: 20%;
+    margin-right: 20%;
     margin-bottom: 2rem;
 
     text-align: center;
@@ -73,6 +75,7 @@ img {
 }
 .circleContent{
     text-align: center;
+    align-items: center;
 
 }
 .Slider {
