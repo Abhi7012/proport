@@ -1,7 +1,6 @@
-$(".h3pro").hover(
-    $(".h3pro").animate({
-        fontsize:'3rem',
-        color:'white'
-    },'slow'
-    )
-)
+$(document).ready(function(){  
+   
+    $('.h3pro').css('fontSize','3rem');
+    
+   
+});  
