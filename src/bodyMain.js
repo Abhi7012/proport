@@ -6,7 +6,7 @@ import Projects from './projects';
 
 function BodyMain() {
     return (
-        <div className="bodyMain">
+        <div className="bodyMain" id='bodym'>
             <UpperBody />
             <Contentmid />
             <Projects />

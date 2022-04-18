@@ -2,7 +2,7 @@ import React from 'react';
 
 function Contentmid() {
     return (
-        <div className="contentmid">
+        <div className="contentmid" id='contentmd'>
         <div className='row'>
             <div className='col-md-6 midh1'>
                 <h1 style={{marginBottom:'2rem'}}>Want to Get Your <br></br>Personal Website ! </h1>

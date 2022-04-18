@@ -7,10 +7,10 @@ function CircleFrame(props) {
 
     return (
         <div className="circleContent"><div className="circle" style={{ backgroundImage: url }} />
-            <h3 >
+            <a href={props.href}><button type='button' className='btn btn-dark'>
             {console.log(url)}
                 {props.content}
-            </h3></div>
+            </button></a></div>
 
     );
 }
