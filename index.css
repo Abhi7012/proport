@@ -6,7 +6,10 @@
 body{
     background-image: linear-gradient(to bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12);
     background-repeat: no-repeat;
+    transform: scaleX(100%);
+    transition: 1s ease;
 }
+
 
 img {
     height: 30%;
@@ -79,6 +82,28 @@ img {
     text-align: center;
     align-items: center;
 
+}
+.circle:hover{
+    scale: 1.1;
+    border-radius: 0%;
+    transition: 0.5s ease;
+
+}
+button:hover{
+    background-color: blue !important;
+    scale: 1.1;
+
+    
+}
+
+@media screen and (max-width:600px){
+    .projectBtn{
+        margin-left: 2.6rem;
+
+
+    }
+   
+    
 }
 .Slider {
     margin-top: 5rem;
