@@ -8,15 +8,15 @@ const projectsinfo = [
     },
     {
         key: 2,
-        name: 'Gymmer',
-        bg: '/gymmerillus.png',
-        link:'https://abhi7012.github.io/Gymmer/',
+        name: 'LeanIn',
+        bg: '/leanIn.jpg',
+        link:'https://lean-in-iiitd.netlify.app/',
     },
     {
         key: 3,
-        name: 'Keepers app',
-        bg: '/keeperapp.png',
-        link:'/',
+        name: 'Odessey app',
+        bg: '/odessey.jpg',
+        link:'https://odyssey.iiitd.edu.in/',
 
     },
     {

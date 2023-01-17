@@ -7,14 +7,15 @@
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
     "@testing-library/user-event": "^13.5.0",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4",
     "gh-pages": "^3.2.3",
     "image-webpack-loader": "^8.1.0",
     "owl.carousel": "^2.3.4",
-    "react-owl-carousel": "^2.3.3"
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-owl-carousel": "^2.3.3",
+    "react-scripts": "5.0.1",
+    "typewriter-effect": "^2.19.0",
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "predeploy": "npm run build",
