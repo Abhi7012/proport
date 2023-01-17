@@ -6,10 +6,10 @@
 body{
     background-image: linear-gradient(to bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12);
     background-repeat: no-repeat;
-    transform: scaleX(100%);
-    transition: 1s ease;
-}
+    scroll-behavior: smooth;
+    font-family: 'Sora', sans-serif;
 
+}
 
 img {
     height: 30%;
@@ -35,13 +35,29 @@ img {
 
 }
 .greetings {
-    font-size: 4rem;
+    display: inline;
+    font-size: 10rem;
     padding-bottom: 1rem;
+    margin-bottom: 2rem;
     text-align: center;
     color: white;
 
 }
+.input-cursor {
+    display: inline-block;
+    width: 2px;
+    height: 8rem;
+    background-color: white;
+    margin-left: 8px;
+    animation: blink .6s linear infinite alternate;
+}
 
+@keyframes blink {
+    0% {opacity: 1;}
+    40% {opacity: 1;}
+    60% {opacity: 0;}
+    100% {opacity: 0;}
+  }
 
 .content2+img{
     padding-right: 5rem;
@@ -66,45 +82,30 @@ img {
     width: 15rem;
     height: 15rem;
     border-radius: 50%;
-    background-size: 25rem;
+    background-size: contain;
     background-position-x: center;
     background-position-y: center;
     padding: 0%;
-    margin-left: 24%;
-    margin-right: 24%;
+   
     margin-bottom: 2rem;
 
     text-align: center;
     justify-content: center;
     padding-top: 6rem;
 }
+
+.circle:hover{
+    scale: 1.1;
+}
 .circleContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
     align-items: center;
 
 }
-.circle:hover{
-    scale: 1.1;
-    border-radius: 0%;
-    transition: 0.5s ease;
 
-}
-button:hover{
-    background-color: blue !important;
-    scale: 1.1;
-
-    
-}
-
-@media screen and (max-width:600px){
-    .projectBtn{
-        margin-left: 2.6rem;
-
-
-    }
-   
-    
-}
 .Slider {
     margin-top: 5rem;
     margin-bottom: 5rem;
