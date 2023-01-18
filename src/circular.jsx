@@ -1,17 +1,15 @@
-import React from 'react';
-
+import React from "react";
 
 function CircleFrame(props) {
+  const url = `url(${process.env.PUBLIC_URL + props.bg})`;
 
-    const url = `url(${process.env.PUBLIC_URL + props.bg})`;
-
-    return (
-        <div className="circleContent"><div className="circle" style={{ backgroundImage: url }} />
-            <a href={props.href}><button type='button' className='btn btn-dark'>
-            {console.log(url)}
-                {props.content}
-            </button></a></div>
-
-    );
+  return (
+    <div className="circleContent">
+      <a href={props.href}><div className="circle" style={{ backgroundImage: url }} /></a>
+      <h5>
+        &quot;{props.content}&quot;
+      </h5>
+    </div>
+  );
 }
 export default CircleFrame;

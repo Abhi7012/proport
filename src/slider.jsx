@@ -25,7 +25,7 @@ function Slider() {
         <OwlCarousel className="owl-theme" responsive={responsive} stagePadding={50} autoplay loop margin={10} dots={false} >
             {projectsinfo.map(element => (
                 <div className="item">
-                    <a href={element.link}><CircleFrame content={element.name} bg={element.bg} href={element.link}/></a>
+                    <CircleFrame content={element.name} bg={element.bg} href={element.link}/>
 
                 </div>
                 ))}
