@@ -39,11 +39,17 @@ img {
 .greetings {
     display: inline;
     font-size: 10rem;
-    padding-bottom: 1rem;
+    padding-bottom: 4rem;
     margin-bottom: 2rem;
     text-align: center;
     color: white;
 
+}
+
+@media screen and (max-width:600px) {
+    .greetings{
+        font-size: 5rem;
+    }
 }
 .input-cursor {
     display: inline-block;
