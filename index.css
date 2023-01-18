@@ -8,12 +8,14 @@ body{
     background-repeat: no-repeat;
     scroll-behavior: smooth;
     font-family: 'Sora', sans-serif;
+    overflow-x: hidden;
 
 }
 
 img {
     height: 30%;
     width: auto;
+    
 }
 .navbar {
     display: flex;
@@ -37,11 +39,17 @@ img {
 .greetings {
     display: inline;
     font-size: 10rem;
-    padding-bottom: 1rem;
+    padding-bottom: 4rem;
     margin-bottom: 2rem;
     text-align: center;
     color: white;
 
+}
+
+@media screen and (max-width:600px) {
+    .greetings{
+        font-size: 5rem;
+    }
 }
 .input-cursor {
     display: inline-block;
@@ -74,10 +82,20 @@ img {
 }
 .Projects h4 {
     text-align: center;  
-    color: white;
+    color: black;
 
     
 }
+
+.Projects h5 {
+    text-align: center;  
+    color: silver;
+    width: 70%;
+
+    
+}
+
+
 .circle{
     width: 15rem;
     height: 15rem;
@@ -96,6 +114,7 @@ img {
 
 .circle:hover{
     scale: 1.1;
+    border-radius: 0%;
 }
 .circleContent{
     display: flex;
@@ -103,6 +122,9 @@ img {
     justify-content: center;
     text-align: center;
     align-items: center;
+    text-decoration: none;
+    color:black !important;
+    font-style: italic;
 
 }
 
